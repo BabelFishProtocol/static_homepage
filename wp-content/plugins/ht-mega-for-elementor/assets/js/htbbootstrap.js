@@ -976,7 +976,7 @@ function() {
         var a = "htbpopover",
             l = ".htbbs.htb-popover",
             h = r.fn[a],
-            c = new RegExp("(^|\\s)htb-bs-popover\\S+", "g"),
+            c = new RegExp("(^|\\s)bs-popover\\S+", "g"),
             u = r.extend({}, s.Default, {
                 placement: "right",
                 trigger: "click",

@@ -1,7 +1,7 @@
 a, a:visited {
     text-decoration: underline;
 }
-*, ::after, ::before {
+}*, ::after, ::before {
     box-sizing: border-box;
 }
 a {
@@ -1501,33 +1501,6 @@ tbody.htb-collapse.htb-show {
     }
     
 }@media (min-width:320px) {
-    .htb-progress {
-        display: -ms-flexbox;
-        display: flex;
-        height: 1rem;
-        overflow: hidden;
-        font-size: .75rem;
-        background-color: #e9ecef;
-        border-radius: .25rem;
-    }
-    .htb-progress-bar {
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-align: center;
-        align-items: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-        color: #fff;
-        background-color: #007bff;
-    }
-    .htb-progress-bar-striped {
-        background-image: linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
-        background-size: 1rem 1rem;
-    }
-    .htb-progress-bar-animated {
-        -webkit-animation: progress-bar-stripes 1s linear infinite;
-        animation: progress-bar-stripes 1s linear infinite;
-    }    
     .htb-close {
         float: right;
         font-size: 1.5rem;
